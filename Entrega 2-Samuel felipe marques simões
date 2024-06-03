@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" type="text/css"href="css/style.css">
+    <script src="script.js"></script>
+    
+    <title>fluxo</title>
+</head>
+<body>
+    
+    
+    
+    <div id="QuadradoMaior"></div>
+        <div class="Quadradomenor"></div>
+        <div class="Quadradomenor"></div>
+        <div class="Quadradomenor"></div>
+
+    <div id="header">
+        <img id="logo" src="imagens.png/logoFluxo.png"/>
+        <H1>FluxoSocial</H1>
+        <h2>It´s happening now</h2>
+       
+    </div> 
+    
+    
+    <div id="tela"> 
+        <div class="background"></div>
+        <img id="precapa" src="imagens.png/Pre-Capa.fx.png">
+        
+        <form id="formulário">Email:
+            <div class="pergunta">
+                <input type="caixapergunta" name="email" placeholder="Digite seu email" required>
+
+                
+            </div>
+
+            <a href="#">esqueceu sua senha?</a>
+
+
+            <div class="pergunta">senha:
+                <input type="caixapergunta" name="senha" placeholder="Digite sua senha" required>
+
+
+
+
+
+
+
+body{
+    margin: 0;
+}
+#header{
+    background-color: rgb(0, 0, 0);
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 81, 0);
+    font-size: small;
+}
+
+
+#tela{
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        content: '';
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(imagens.png/foto2.fluxojpg.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size:cover;
+        background-size: cover;
+        
+    
+    
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+#precapa{
+    height: 600px;
+    width: 900px;
+    margin: auto 0;
+
+}
+
+#formulário{
+    background: transparent;
+    height: 60vh;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+    
+
+    
+
+}
+
+.pergunta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+
+
+
+
+
+
+#logo{
+    height: 70px;
+    width: 70px;
+    margin: auto 0;
+}
+
+h1{
+    color: aliceblue;
+    font-family: sans-serif;
+    
+    
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+#botaologin{
+    height: 12%;
+    width: 40%;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 123, 0);
+    cursor: pointer;
+
+}
+
+
+.formulário input[type=email],
+.formulário input[type=senha]{
+    border: none;
+    border-bottom: 1px solid #fff;
+
+}
+
+
+
+
+
+function AlertaLogin () {
+    return alert("Usuário logado com sucesso!")
+
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
